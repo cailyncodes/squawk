@@ -1,0 +1,7 @@
+# Complex Example in Squawk
+# Demonstrates let bindings and nested expressions
+
+fn compute(x: Int, y: Int) -> Int =
+  let a = x + y in
+  let b = a * 2 in
+  if b > 10 then b else a
