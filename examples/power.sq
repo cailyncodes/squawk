@@ -1,0 +1,6 @@
+# Power Function in Squawk
+# Demonstrates nested expressions
+
+fn power(base: Int, exp: Int) -> Int =
+  if exp <= 0 then 1
+  else base * power(base, exp - 1)

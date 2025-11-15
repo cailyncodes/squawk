@@ -1,0 +1,6 @@
+# Fibonacci Function in Squawk
+# Demonstrates multiple recursive calls
+
+fn fib(n: Int) -> Int =
+  if n <= 1 then n
+  else fib(n - 1) + fib(n - 2)
